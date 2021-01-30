@@ -19,7 +19,7 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer providerKey="postgres" source="dbname='lizmap' host=192.168.17.36 port=5432 user='postgres' key='ogc_fid' srid=2154 type=MultiPolygon table=&quot;public&quot;.&quot;departement17&quot; (wkb_geometry) sql=" checked="Qt::Checked" expanded="1" name="departement17" id="departement17_9ad684d0_25fe_4a13_a50c_d33a4babcdc9">
+    <layer-tree-layer providerKey="postgres" source="dbname='lizmap' host=192.168.1.0 port=5432 user='postgres' key='ogc_fid' srid=2154 type=MultiPolygon table=&quot;public&quot;.&quot;departement17&quot; (wkb_geometry) sql=" checked="Qt::Checked" expanded="1" name="departement17" id="departement17_9ad684d0_25fe_4a13_a50c_d33a4babcdc9">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer providerKey="wms" source="type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=18&amp;zmin=0" checked="Qt::Checked" expanded="1" name="OpenStreetMap" id="OpenStreetMap_d78ac700_db69_41e4_96f5_9eda279ce927">
@@ -234,7 +234,7 @@
         <ymax>6593246.99999998975545168</ymax>
       </extent>
       <id>departement17_9ad684d0_25fe_4a13_a50c_d33a4babcdc9</id>
-      <datasource>dbname='lizmap' host=192.168.17.36 port=5432 user='postgres' password='postgres' key='ogc_fid' srid=2154 type=MultiPolygon table="public"."departement17" (wkb_geometry) sql=</datasource>
+      <datasource>dbname='lizmap' host=192.168.1.0 port=5432 user='postgres' password='postgres' key='ogc_fid' srid=2154 type=MultiPolygon table="public"."departement17" (wkb_geometry) sql=</datasource>
       <keywordList>
         <value></value>
       </keywordList>
